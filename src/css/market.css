@@ -20,12 +20,11 @@
   cursor: pointer;
   transition: all 0.2s ease;
   box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-family: 'Potta One';
 }
 
 .selector ul li.active,
 .selector ul li:hover{
-  background: hotpink;
+  background: #e44988;
   transition: 0.5s;
 }
 
@@ -48,7 +47,7 @@
   background: #272928;
   box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
 
-  font-family: 'Sofia'
+
 }
 
 .item:hover{
@@ -232,7 +231,7 @@ img{
 }
 
 .gear-icon:hover svg{
-  color: hotpink;
+  color: #e44988;
   cursor: pointer;
 }
 
@@ -251,7 +250,6 @@ img{
 .market-menu ul {
   margin-top: 0;
   padding-left: 0px;
-  font-family: 'Poppins'
 }
 
 .market-menu ul li {
@@ -261,5 +259,5 @@ img{
 
 .market-menu ul li:hover{
   cursor: pointer;
-  background-color: hotpink;
+  background-color: #e44988;
 }

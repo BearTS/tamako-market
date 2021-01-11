@@ -13,7 +13,7 @@ a{
 }
 
 a:hover{
-  color: hotpink;
+  color: #e44988;
 }
 
 body {
@@ -33,7 +33,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: hotpink;
+  background-color: #e44988;
   outline: 1px solid slategrey;
 }
 
@@ -43,7 +43,6 @@ body::-webkit-scrollbar-thumb {
   background-color: rgba(35, 38, 36, 1);
   color: white;
   padding: 1% 2%;
-  font-family: 'Potta One'
 }
 
 .nav-bar img{
@@ -78,7 +77,7 @@ body::-webkit-scrollbar-thumb {
 
 .nav-bar-links li a:hover{
   cursor: pointer;
-  color: hotpink;
+  color: #e44988;
 }
 
 .nav-bar-toggle{
@@ -164,7 +163,6 @@ body::-webkit-scrollbar-thumb {
   padding-bottom: 10px;
   justify-content: space-between;
   background: #272928;
-  font-family: 'Potta One';
 }
 
 .footer-information {
@@ -173,7 +171,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 .footer-information p{
-  font-family: 'Poppins';
   color: darkgrey;
   font-size: 12px;
 }
@@ -195,52 +192,5 @@ body::-webkit-scrollbar-thumb {
 
 .footer-links ul li a:hover{
   cursor: pointer;
-  color: hotpink;
-}
-
-.invite-link {
-  position: fixed;
-  bottom: 20px;
-  left: 20px;
-  margin: 0;
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-  cursor: pointer;
-  border-radius: 10px;
-  align-items: center;
-  background: hotpink;
-  overflow: hidden;
-  box-shadow: 20px black;
-  transition: transform .5s ease;
-}
-
-.invite-link img{
-  max-width: 100px;
-  height: auto;
-}
-
-.invite-link:hover .overlay{
-  opacity: 0.85;
-}
-
-.invite-text {
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  vertical-align: center;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  margin: 0;
-  padding: 10px;
-  font-family: 'Poppins';
-  font-size: 25px;
-  color: white;
-}
-
-@media (max-width: 1024px){
-  .invite-link {
-    transform: scale(0);
-  }
+  color: #e44988;
 }
